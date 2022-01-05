@@ -6,16 +6,14 @@ int main(){
     int n; cin>>n;
     while (n--){
 
-        int n, x, y; 
-        cin>>n>>x>>y;
+        int a,b; 
+        cin>>a>>b;
 
-        int c1=(n+1)/2;
-        int c2=c1;
+        int seats=((a+1)/2)*((b+1)/2);
+        cout<<seats<<endl;
 
-        if((abs(c1-x) + abs(c2-y))%2==0){cout<<0<<endl;}
-        else cout<<1<<endl;
 
     }
 
-return 0;
+
 }
