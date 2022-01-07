@@ -16,6 +16,6 @@ int main(){
         else cout<<1<<endl;
 
     }
-
+//problem is done
 return 0;
 }
